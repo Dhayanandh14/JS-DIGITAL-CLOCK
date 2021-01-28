@@ -1,0 +1,77 @@
+.clock-box {
+    border: 1px solid black;
+    width: 400px;
+    height: 200px;
+    margin-top: 200px;
+    margin-left: 150px;
+    text-align: center;
+    font-size: 50px;
+    transition: 1s;
+}
+button {
+    margin-left: 180px;
+    margin-top: 50px;
+    width: 80px;
+    height: 30px;
+    color: cornsilk;
+    border: none;
+    transition: 0.5s;
+    outline: none;
+}
+.start {
+    background-color: darkgreen;
+}
+.start:hover {
+    background-color: rgb(95, 211, 72);
+    transition: 0.5s;
+}
+.stop {
+    background-color: rgb(255, 0, 0);
+}
+.stop:hover {
+    background-color: rgb(177, 37, 37);
+    transition: 0.5s;
+}
+.start:active {
+    background-color: lightgreen;
+    transition: 0.5s;
+}
+.stop:active {
+    background-color: #fc7176;
+    transition: 0.3s;
+}
+#neram {
+    position: relative;
+    top: 68px;
+    transition: 1s;
+}
+@media only screen and (max-width: 500px) {
+    .clock-box {
+        border: 1px solid black;
+        width: 200px;
+        height: 80px;
+        margin-top: 200px;
+        margin-left: 80px;
+        text-align: center;
+        font-size: 30px;
+        transition: 1s;
+    }
+    #neram {
+        position: relative;
+        top: 20px;
+        transition: 1s;
+    }
+    button {
+        width: 60px;
+        height: 30px;
+        margin-top: 10px;
+        margin-left: 50px;
+        position: relative;
+        left: 47px;
+        background-color: rgb(3, 138, 248);
+        color: cornsilk;
+        border: none;
+        transition: 0.5s;
+        outline: none;
+    }
+}
